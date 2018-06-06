@@ -6,6 +6,7 @@ import { bindActionCreators } from 'redux';
 import { Container, NewPlaylist, Nav } from './styles';
 import AddPlaylistIcon from '../../assets/images/add_playlist.svg';
 import { Creators as PlaylistActions } from '../../store/ducks/playlists';
+import Loading from '../../components/Loading';
 
 class Sidebar extends Component {
   static propTypes = {
@@ -15,6 +16,7 @@ class Sidebar extends Component {
         id: PropTypes.number,
         title: PropTypes.string,
       })),
+      loading: PropTypes.bool,
     }).isRequired,
   };
   componentDidMount() {
@@ -64,6 +66,7 @@ class Sidebar extends Component {
           <Nav>
             <li>
               <span>Playlist</span>
+              {this.props.playlists.loading && <Loading />}
             </li>
             {this.props.playlists.data.map(playlist => (
               <li key={playlist.id}>

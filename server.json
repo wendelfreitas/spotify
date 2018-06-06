@@ -1,0 +1,78 @@
+{
+  "playlists": [
+    {
+      "id": 1,
+      "title": "Linkin Porco",
+      "description": "Músicas do Linkin Park para agitar qualquer momento",
+      "thumbnail": "https://s3-sa-east-1.amazonaws.com/gonative/linkin_park.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Sorriso não tão Maroto",
+      "description": "As melhores músicas do sorriso maroto pra você se afundar na depressão.",
+      "thumbnail":
+        "http://4.bp.blogspot.com/_JrlQqaqZfBY/TOiP_kI3xEI/AAAAAAAAFo0/achOQbgspaY/s1600/Sorriso%2BMaroto%2B-%2BSinais%2B%2528Capa%2BOficial%2Bdo%2B%25C3%2581lbum%2529%2BCover%2BBrasil.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Salad Days",
+      "description":
+        "Animar seu dia nunca foi tão fácil, ouça essas músicas e tenha um dia mais feliz!",
+      "thumbnail": "https://s3-sa-east-1.amazonaws.com/gonative/alok.jpg"
+    },
+    {
+      "id": 4,
+      "title": "The day that never comes",
+      "description": "The best musics in the world",
+      "thumbnail":
+        "https://99designs-blog.imgix.net/blog/wp-content/uploads/2017/12/Stargroves-album-cover.png?auto=format&q=60&fit=max&w=930"
+    }
+  ],
+  "songs": [
+    {
+      "id": 0,
+      "title": "Papercut",
+      "author": "Linkin Park",
+      "album": "Hybrid Theory",
+      "file": "https://s3-sa-east-1.amazonaws.com/gonative/1.mp3",
+      "thumbnail": "https://s3-sa-east-1.amazonaws.com/gonative/linkin_park.jpg",
+      "playlistId": 1
+    },
+    {
+      "id": 1,
+      "title": "One Step Closer",
+      "author": "Linkin Park",
+      "album": "Hybrid Theory",
+      "file": "https://s3-sa-east-1.amazonaws.com/gonative/2.mp3",
+      "thumbnail": "https://s3-sa-east-1.amazonaws.com/gonative/linkin_park.jpg",
+      "playlistId": 2
+    },
+    {
+      "id": 2,
+      "title": "With You",
+      "author": "Linkin Park",
+      "album": "Hybrid Theory",
+      "file": "https://s3-sa-east-1.amazonaws.com/gonative/3.mp3",
+      "thumbnail": "https://s3-sa-east-1.amazonaws.com/gonative/linkin_park.jpg",
+      "playlistId": 3
+    },
+    {
+      "id": 3,
+      "title": "Points of Authority",
+      "author": "Linkin Park",
+      "album": "Hybrid Theory",
+      "file": "https://s3-sa-east-1.amazonaws.com/gonative/4.mp3",
+      "thumbnail": "https://s3-sa-east-1.amazonaws.com/gonative/linkin_park.jpg",
+      "playlistId": 4
+    },
+    {
+      "id": 4,
+      "title": "Crawling",
+      "author": "Linkin Park",
+      "album": "Hybrid Theory",
+      "file": "https://s3-sa-east-1.amazonaws.com/gonative/5.mp3",
+      "thumbnail": "https://s3-sa-east-1.amazonaws.com/gonative/linkin_park.jpg",
+      "playlistId": 4
+    }
+  ]
+}

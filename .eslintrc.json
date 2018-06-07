@@ -9,6 +9,13 @@
   "rules": {
     "linebreak-style": 0,
     "react/prefer-stateless-function": "off",
+    "jsx-a11y/anchor-is-valid": [
+      "error",
+      {
+        "components": ["Link"],
+        "specialLink": ["to"]
+      }
+    ],
     "no-unused-expressions": [
       "error",
       {

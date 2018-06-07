@@ -21,4 +21,8 @@ injectGlobal`
     font-family: 'Montserrat', sans-serif;
     color: #fff;
   }
+
+  button {
+    cursor: pointer;
+  }
 `;

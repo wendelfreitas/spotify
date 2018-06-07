@@ -10,7 +10,7 @@ export const Container = styled.div`
 export const Current = styled.div`
   display: flex;
   align-items: center;
-
+  width: 220px;
   img {
     width: 48px;
     height: 48px;
@@ -46,6 +46,10 @@ export const Controls = styled.div`
     background: transparent;
     border: 0;
     margin: 0 15px;
+
+    &:hover {
+      opacity: 0.7;
+    }
   }
 `;
 

@@ -30,6 +30,7 @@ export default function player(state = INITIAL_STATE, action) {
         currentSong: action.payload.song,
         list: action.payload.list,
         status: Sound.status.PLAYING,
+        position: 0,
       };
     case Types.PLAY:
       return { ...state, status: Sound.status.PLAYING };
